@@ -1,0 +1,36 @@
+.ready {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image: url('../../images/ready_bg.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-color: $readyBg;
+}
+
+.ready__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .ready__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        color: $darkblue;
+    }   
+    .ready__link {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        padding: 9px 30px;
+        color: $darkblue;
+        border: 2px solid $darkblue;
+        border-radius: 24px;
+        text-decoration: none;
+        transition: all 0.2s ease;
+    }
+    .ready__link:active {
+        cursor: pointer;
+        transform: scale(.9);
+    }
+}

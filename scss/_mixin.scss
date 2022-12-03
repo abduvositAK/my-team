@@ -1,0 +1,15 @@
+@mixin contact-btn {
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 24px;
+    width: 125px;
+    height: 50px;
+    font-family: 'Livvic', sans-serif;
+    padding: 8px 32px;
+    color: $storiesBg;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 32px;
+    transition: .8s;
+}

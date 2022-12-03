@@ -1,0 +1,31 @@
+#hero {
+    background-color: $lightblue;
+    padding-top: 130px;
+    padding-bottom: 250px;
+    background-image: url('../../images/bg-circle.png'), url('../../images/bg-circle-duo.png'); 
+    background-repeat: no-repeat;
+    background-position: left -10px center, bottom right 165px;
+}
+.hero__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__title {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #fff;
+
+    span {
+        color: $pink;
+    }
+}
+.hero__text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    width: 445px;
+}
+

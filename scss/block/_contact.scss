@@ -1,0 +1,91 @@
+.contact {
+    padding-bottom: 120px;
+    background-color: $lightblue;
+    background-image: url('../../images/contact-left-bg.png'), url('../../images/contact-right-bg.png');
+    background-repeat: no-repeat;
+    background-position: left top, bottom right;
+
+}
+
+.contact__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 32px;
+    .contact__title {
+        color: #fff;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 100px;
+    }
+
+    .contact__text {
+        padding-top: 16px;
+        color: $pink;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+    }
+}
+
+.contact__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+
+    p {
+        color: #fff;
+        margin-left: 25px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-bottom: 48px;
+    input {
+        margin-top: 24px;
+        width: 540px;
+        height: 42px;
+        padding: 24px 16px;
+        background-color: $lightblue;
+        border: none;
+        border-bottom: 1px solid #fff;
+    }
+    button{
+        @include contact-btn;
+    }
+}
+input:last-child {
+    height: 90px;
+    padding: 16px 8px 60px;
+}
+.form input::placeholder {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    opacity: .6;
+}
+.form input:focus{
+    color: #fff;
+    outline: none;
+}
+.form button:hover{
+    cursor: pointer;
+}
+.form button:active {
+    transform: scale(.9);
+}
