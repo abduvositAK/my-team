@@ -18,6 +18,10 @@ body {
   margin: 0 auto;
 }
 
+ul {
+  list-style: none;
+}
+
 header {
   background-color: #014E56;
   padding: 70px 0;
@@ -418,8 +422,24 @@ input:last-child {
 
 .meet__list {
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+  justify-content: space-between;
+}
+.meet__list .meet__item {
+  text-align: center;
+  margin-top: 24px;
+  padding-top: 16px;
+  width: 320px;
+  height: 200px;
+  background-color: #012F34;
+}
+.meet__list .meet__item h4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #79C8C7;
+}
+.meet__list .meet__item i {
+  font-size: 15px;
+  color: #fff;
 }
 
 #footer {

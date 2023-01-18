@@ -1,4 +1,4 @@
-.meet{
+.meet {
     padding-top: 140px;
     padding-bottom: 140px;
     background-image: url('../../images/stories-square.png'), url('../../images/stories-circle.png');
@@ -6,8 +6,9 @@
     background-position: left top, right bottom;
     background-color: $storiesBg;
 }
-.meet__inner{
-    .meet__title{
+
+.meet__inner {
+    .meet__title {
         font-weight: 700;
         font-size: 48px;
         line-height: 48px;
@@ -17,8 +18,28 @@
         height: 95px;
     }
 }
-.meet__list{
+
+.meet__list {
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+    justify-content: space-between;
+
+    .meet__item {
+        text-align: center;
+        margin-top: 24px;
+        padding-top: 16px;
+        width: 320px;
+        height: 200px;
+        background-color: $darkblue;
+
+        h4 {
+            font-weight: 700;
+            font-size: 18px;
+            color: #79C8C7;
+        }
+
+        i {
+            font-size: 15px;
+            color: #fff;
+        }
+    }
 }
