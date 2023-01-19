@@ -416,7 +416,6 @@ input:last-child {
   line-height: 48px;
   text-align: center;
   color: #fff;
-  width: 930px;
   height: 95px;
 }
 
@@ -431,6 +430,7 @@ input:last-child {
   width: 320px;
   height: 200px;
   background-color: #012F34;
+  line-height: 1.5;
 }
 .meet__list .meet__item h4 {
   font-weight: 700;
@@ -440,6 +440,22 @@ input:last-child {
 .meet__list .meet__item i {
   font-size: 15px;
   color: #fff;
+}
+.meet__list .meet__item p {
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  width: 250px;
+  height: 70px;
+  margin: 0 auto;
+}
+.meet__list .bg-content {
+  line-height: 1.5;
+  background-color: #002529;
+}
+.meet__list .meet__social img {
+  padding: 8px 12px;
 }
 
 #footer {

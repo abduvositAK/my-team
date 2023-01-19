@@ -14,7 +14,6 @@
         line-height: 48px;
         text-align: center;
         color: #fff;
-        width: 930px;
         height: 95px;
     }
 }
@@ -30,6 +29,7 @@
         width: 320px;
         height: 200px;
         background-color: $darkblue;
+        line-height: 1.5;
 
         h4 {
             font-weight: 700;
@@ -40,6 +40,25 @@
         i {
             font-size: 15px;
             color: #fff;
+        }
+
+        p {
+            margin-top: 8px;
+            font-weight: 600;
+            font-size: 15px;
+            color: #fff;
+            width: 250px;
+            height: 70px;
+            margin: 0 auto;
+        }
+    }
+    .bg-content{
+        line-height: 1.5;
+        background-color: #002529;
+    }
+    .meet__social{
+        img{
+            padding: 8px 12px;
         }
     }
 }
